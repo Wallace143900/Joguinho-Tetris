@@ -13,3 +13,14 @@ body{
     margin: 0 auto 20px;
     width: 200px;
 }
+
+#game_board{
+    width: 240px;
+    height: 480px;
+    border: 5px solid #3e5eba;
+    margin: 0 auto;
+    position: relative;
+    background: repeating-linear-gradient(rgba(22, 28,67,0.8), rgba(22, 28,67,0.8) 20px, rgba(23,27,63,0.8) 20px, rgba(23,27,63,0.8) 40px),
+    repeating-linear-gradient(90deg, rgba(22, 28,67,0.8), rgba(22, 28,67,0.8) 20px, rgba(23,27,63,0.8) 20px, rgba(23,27,63,0.8) 40px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
