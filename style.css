@@ -7,3 +7,9 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.logo{
+    display: block;
+    margin: 0 auto 20px;
+    width: 200px;
+}
