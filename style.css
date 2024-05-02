@@ -24,3 +24,19 @@ body{
     repeating-linear-gradient(90deg, rgba(22, 28,67,0.8), rgba(22, 28,67,0.8) 20px, rgba(23,27,63,0.8) 20px, rgba(23,27,63,0.8) 40px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.6);
 }
+
+.block {
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    position: absolute;
+    box-shadow: inset 3px 3px 0 rgba(255,255,255,0.5);
+}
+
+.ghost {
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    position: absolute;
+    box-shadow: inset 3px 3px 0 rgba(255,255,255,0.3);
+}
